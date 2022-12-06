@@ -2,7 +2,8 @@
 
 if [ "$1" == " " ]
 then
-echo "Try: ./ipsweep.sh 192.168.4"
+echo "Enter an IP address to perform IP Sweep"
+echo "Syntax: ./ipsweep.sh 192.168.4"
 
 else
 for ip in `seq 1 254`; do
